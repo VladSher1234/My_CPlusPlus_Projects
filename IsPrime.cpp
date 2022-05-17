@@ -24,14 +24,14 @@ bool IsPrime(int n)
 int main()
 {
     int n;
-    cout << "Введите число: ";
+    cout << "Write the number: ";
     cin >> n;
     if (IsPrime(n))
     {
-        cout << "Число простое" << '\n';
+        cout << "Number is prime" << '\n';
     }
     else
     {
-        cout << "Число составное" << '\n';
+        cout << "Number is composite" << '\n';
     }
 }

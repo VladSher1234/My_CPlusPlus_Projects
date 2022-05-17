@@ -11,14 +11,14 @@ int main()
         cout << i << ' ';
     }   while(i < 50);
     i = 0;
-    cout << '\n' << "При помощи цикла do while" << '\n';
+    cout << '\n' << "do while" << '\n';
     while(i < 50){
         i++;
         cout << i << ' '; 
     }
-    cout << '\n' << "При помощи цикла while" << '\n';
+    cout << '\n' << "while" << '\n';
     for(i = 1; i < 51; i++){
         cout << i << ' '; 
     }
-    cout << '\n' << "При помощи цикла for" << '\n';
+    cout << '\n' << "for" << '\n';
 }

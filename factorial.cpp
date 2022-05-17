@@ -15,7 +15,7 @@ int64_t Factorial(int n)
 int main()
 {
    int n;
-   cout << "Введите число: ";
+   cout << "Write the number: ";
    cin >> n;
    cout << Factorial(n) << '\n';
 }

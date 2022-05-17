@@ -29,14 +29,14 @@ bool IsOdd(int n)
 int main()
 {
     int n;
-    cout << "Введите число: ";
+    cout << "Write the number: ";
     cin >> n;
     if (IsEven(n))
     {
-        cout << "Число четно" << '\n';
+        cout << "Number is even" << '\n';
     }
     else
     {
-        cout << "Число нечетно" << '\n';
+        cout << "Number is odd" << '\n';
     }
 }

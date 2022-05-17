@@ -5,14 +5,14 @@ using namespace std;
 int main()
 {
     int n;
-    cout << "Введите число: ";
+    cout << "Write the number: ";
     cin >> n;
     if (n > 50)
     {
-        cout << "Число больше 50" << '\n';
+        cout << "Number bigger than 50" << '\n';
     }
     else
     {
-        cout << "Число меньше 50" << '\n';
+        cout << "Number smaller than 50" << '\n';
     }
 }
