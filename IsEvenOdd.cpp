@@ -4,26 +4,12 @@ using namespace std;
 
 bool IsEven(int n)
 {
-    if (n % 2 == 0)
-    {
-        return true;
-    }
-    else 
-    {
-        return false;
-    }
+    return (n % 2 == 0);
 }
 
 bool IsOdd(int n)
 {
-    if (n % 2 == 1)
-    {
-        return true;
-    }
-    else 
-    {
-        return false;
-    }
+    return (n % 2 == 1);
 }
 
 int main()
