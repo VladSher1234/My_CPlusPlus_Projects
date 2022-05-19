@@ -1,3 +1,8 @@
+/*This library is not mine!
+It belongs to my brother!
+Here is his GitHub:
+https://github.com/SherAndrei*/
+
 #pragma once
 
 #include <iostream>
