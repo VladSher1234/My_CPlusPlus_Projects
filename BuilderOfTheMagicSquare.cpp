@@ -43,12 +43,12 @@ int main()
                 pMagic_square[i1+size][j1]=k;
              if ((i1>(gr)) && (j1>(size+gr)-1))
                 pMagic_square[i1][j1-size]=k;
-             --i1;
-             ++j1;
-             ++k;
+             i1--;
+             j1++;
+             k++;
          }
-         ++i;
-         ++j;
+         i++;
+         j++;
      }
 
       cout << "Magic constant: " << (size * (size * size + 1)) / 2 << '\n';
@@ -60,7 +60,7 @@ int main()
          cout << endl;
      }
  
-     for (int i = 0; i < max_size; ++i)
+     for (int i = 0; i < max_size; i++)
         delete[] pMagic_square[i];
         delete[] pMagic_square;
  
