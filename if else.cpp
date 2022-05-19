@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     int n;
-    cout << "Write the number: ";
+    cout << "Enter the number: ";
     cin >> n;
     if (n > 50)
     {

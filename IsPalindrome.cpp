@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 
 using namespace std;
 
@@ -23,7 +22,7 @@ bool IsPalindrome(int n)
 int main()
 {
     int n;
-    cout << "Write the number: ";
+    cout << "Enter the number: ";
     cin >> n;
     if (IsPalindrome(n))
     {

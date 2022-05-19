@@ -1,5 +1,4 @@
 #include <iostream>
-#include <numeric>
 #include <cmath>
 
 using namespace std;
@@ -24,7 +23,7 @@ bool IsPrime(int n)
 int main()
 {
     int n;
-    cout << "Write the number: ";
+    cout << "Enter the number: ";
     cin >> n;
     if (IsPrime(n))
     {

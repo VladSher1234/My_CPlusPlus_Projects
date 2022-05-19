@@ -15,7 +15,7 @@ bool IsOdd(int n)
 int main()
 {
     int n;
-    cout << "Write the number: ";
+    cout << "Enter the number: ";
     cin >> n;
     if (IsEven(n))
     {
