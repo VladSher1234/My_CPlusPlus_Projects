@@ -1,7 +1,6 @@
 // Shepower(n) = n ^ n
 
 #include <iostream>
-#include <numeric>
 #include <cmath>
 
 using namespace std;

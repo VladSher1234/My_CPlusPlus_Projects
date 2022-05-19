@@ -17,7 +17,7 @@ int main()
  
      int max_size=size*2-1;
  
-     int**pMagic_square = new  int*[max_size];
+     int**pMagic_square = new int*[max_size];
      for (int i=0; i<max_size; i++)
         pMagic_square[i]=new int[max_size];
  
