@@ -1,7 +1,7 @@
-/*This library is not mine!
+/*This is not my library!
 It belongs to my brother!
-Here is his GitHub:
-https://github.com/SherAndrei*/
+Here GitHub:
+https://github.com/SherAndrei */
 
 #pragma once
 
