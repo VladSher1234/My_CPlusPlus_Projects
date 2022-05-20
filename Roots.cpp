@@ -30,6 +30,6 @@ int main()
     cin >> d;
     cout << "Enter the x: ";
     cin >> x;
-    cout << "dth root of x = " << root(d, x);
+    cout << d << "th root of " << x << " = " << root(d, x);
 }
 

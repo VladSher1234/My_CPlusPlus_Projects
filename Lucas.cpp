@@ -2,7 +2,8 @@
 
 using namespace std; 
 
-int main() {  
+int main() 
+{  
     int64_t n1 = 2, n2 = 1, n3, number;    
     cout << "Enter the number of elements: ";    
     cin >> number;    
