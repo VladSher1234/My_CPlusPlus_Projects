@@ -1,19 +1,25 @@
 #include <iostream>
-#include <numeric>
-
+#include <algorithm>
 using namespace std;
-
-void print_array(int arr[], int size)
-{
-    for (int i = 0; i < size; i++)
-    {
-        cout << arr[i] << ' ';
-    }
-    cout << '\n';
-}
-
+ 
 int main()
 {
-    int arr[6] = {42,562,649,143,98,31};
-    print_array(arr, 6);
+    int arr[] = { 4, 2, 1, 6, -8, 5 };
+ 
+    int min = 0, max = 0;
+    for (int i: arr)
+    {
+        if (i < min) {
+            min = i;
+        }
+ 
+        if (i > max) {
+            max = i;
+        }
+    }
+ 
+    cout << "The min element is " << min << '\n';
+    cout << "The max element is " << max << '\n';
+ 
+    return 0;
 }
