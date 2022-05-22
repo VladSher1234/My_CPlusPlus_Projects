@@ -23,10 +23,6 @@ bool IsPrime(int n)
 int main()
 {
     for(int q = 1; q < 1000000; q++)
-    {
         if (IsPrime(q))
-        {
             cout << q << ' ';
-        }
-    }
 }

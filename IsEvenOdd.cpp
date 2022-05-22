@@ -18,11 +18,7 @@ int main()
     cout << "Enter the number: ";
     cin >> n;
     if (IsEven(n))
-    {
         cout << "Number is even" << '\n';
-    }
     else
-    {
         cout << "Number is odd" << '\n';
-    }
 }

@@ -12,13 +12,9 @@ double root(int d, double x)
         exit(1);
     }
     if (x > 0)
-    {
         return exp(log(x) / d);
-    }
     else
-    {
         return -exp(log(-x) / d);
-    }
         
 }
 

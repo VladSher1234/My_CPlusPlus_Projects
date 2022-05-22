@@ -30,11 +30,7 @@ int main()
     cout << "Enter the number: ";
     cin >> n;
     if (IsPrime(n))
-    {
         cout << "Number is prime" << '\n';
-    }
     else
-    {
         cout << "Number is composite" << '\n';
-    }
 }

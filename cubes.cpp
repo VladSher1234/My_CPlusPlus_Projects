@@ -10,7 +10,5 @@ int Cube(int n)
 int main()
 {
     for(int i = 0; i < 101; i++)
-    {
-        cout << Cube(i) << ' ';
-    }
+    cout << Cube(i) << ' ';
 }

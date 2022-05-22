@@ -17,8 +17,7 @@ int main()
         cout << i << ' '; 
     }
     cout << '\n' << "while" << '\n';
-    for(i = 1; i < 51; i++){
+    for(i = 1; i < 51; i++)
         cout << i << ' '; 
-    }
     cout << '\n' << "for" << '\n';
 }

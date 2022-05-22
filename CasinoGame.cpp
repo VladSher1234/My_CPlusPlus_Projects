@@ -13,16 +13,15 @@ int random(int min, int max)
 int main()
 {
     int CompNumber = random(1, 6), EntNumber, Moneys = 10;
-    cout << "I write this game on Russian! If you don't speak the Russian, use the Google Translate.";
+    cout << "I write this game on Russian! If you don't speak the Russian, use the Google Translate." << '\n';
     cout << "Давай поиграем в 'Угадай число'!" << '\n';
     while (true)
-    {
+    {   
+        cout << "---------------------------" << '\n';
         cout << "Введи число от 1 до 6: ";
         cin >> EntNumber;
         if ((EntNumber > 6) or (EntNumber < 1))
-        {
             cout << "Вводи числа от одного до шести!" << '\n';
-        }
         else
         {
             if (EntNumber != CompNumber)
