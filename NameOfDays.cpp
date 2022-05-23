@@ -31,7 +31,7 @@ int main()
     break;
     
     default:
-    cout << "Eblanday blyat!" << '\n';
+    cout << "Lenin's revival day" << '\n';
     break;
     }
 }
