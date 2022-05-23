@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-	const int RowCount = 15;
-	const int ColumnCount = 15;
+	const int RowCount = 11;
+	const int ColumnCount = 11;
 
 	int Matrix[RowCount][ColumnCount] = {};
 
@@ -13,7 +13,7 @@ int main()
 		for (int columnNum = 1; columnNum < ColumnCount; columnNum++)
 		{
 			Matrix[rowNum][columnNum] = rowNum * columnNum;
-			cout << Matrix[rowNum][columnNum] << "  ";
+			cout << Matrix[rowNum][columnNum] << " ";
 		}
 		cout << endl;
 	}	
