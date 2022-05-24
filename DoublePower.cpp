@@ -23,6 +23,7 @@ double DoublePower(double x, int n)
             a *= x;
         return 1 / a;
 }
+}
 
 int main()
 {
