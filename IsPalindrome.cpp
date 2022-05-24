@@ -2,22 +2,29 @@
 
 using namespace std;
 
-int ReverseNumber(int n)
-{
-    int reversed_number = 0, remainder;
-    while(n != 0) 
+bool IsPalindrome(int x) 
     {
-        remainder = n % 10;
-        reversed_number = reversed_number * 10 + remainder;
-        n /= 10;
+        if(x == 0)
+        {
+            return true;
+        }
+        if((x < 0) || (x % 10 == 0))
+        {
+            return false;
+        }
+        int64_t reversed_number = 0, remainder;
+        const int x_temp = x;
+        while(x != 0) 
+        {
+            remainder = x % 10;
+            reversed_number = reversed_number * 10 + remainder;
+            x /= 10;
+        }
+        if(reversed_number == x_temp)
+            return true;
+        else
+            return false;
     }
-    return reversed_number;
-}
-
-bool IsPalindrome(int n)
-{
-    return (ReverseNumber(n) == n);
-}
 
 int main()
 {
