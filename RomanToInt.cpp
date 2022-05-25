@@ -85,5 +85,5 @@ int RomanToInt(string roman)
 
 int main()
 {
-    cout << RomanToInt("MDCLXVI");
+    cout << RomanToInt("CXXIII");
 }
