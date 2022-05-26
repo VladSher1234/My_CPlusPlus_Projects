@@ -17,6 +17,14 @@ double root(int d, double x)
         return exp(log(x) / d);
     else
         return -exp(log(-x) / d);
+}
+
+double cbrt(double x)
+{
+    if (x > 0)
+        return exp(log(x) / 3);
+    else
+        return -exp(log(-x) / 3);
         
 }
 int length(int n)
@@ -87,6 +95,10 @@ int main()
     for(int i = 0; i < 400; i += 7)
         if((i % 2 == 1) && (i % 3 == 1) && (i % 4 == 1) && (i % 5 == 1) && (i % 6 == 1))
             cout << "1.9.8 solution: " << i << endl;
+    // 1.10.1
+    const double M = 996703628669;
+    const double N = 1011443374872;
+    cout << "1.10.1 solution: cbrt(M) = " << cbrt(M) << "; cbrt(N) = " << cbrt(N) << endl;
     // 1.11.7
     for(int x = 1; x < 50; x++)
         for(int y = 1; y < 50; y++)
@@ -101,5 +113,5 @@ int main()
                     {
                         cout << "1.11.8 solution: П = " << p << "; А = " << a << "; Р = " << r << "; И = " << i << endl;
                     }
-                }
+                }    
 }

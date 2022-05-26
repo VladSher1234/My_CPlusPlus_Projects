@@ -3,8 +3,6 @@ using namespace std;
 
 double DoublePower(double x, int n)
 {
-    if((x == 1) || ((x == -1) && (n <= INT32_MIN)))
-        return 1.00000;
     if(x == -1)
         return -1.00000;
     if (n <= INT32_MIN)

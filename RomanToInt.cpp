@@ -15,42 +15,36 @@ int RomanToInt(string roman)
             roman.erase(i - 1, 2);
             a += 4;
             i = 0;
-            continue;
         }
         if ((last == 'I' && current == 'X' ))
         {
             roman.erase(i - 1, 2);
             a += 9;
             i = 0;
-            continue;
         }
         if ((last == 'X' && current == 'L' ))
         {
             roman.erase(i - 1, 2);
             a += 40;
             i = 0;
-            continue;
         }
         if ((last == 'X' && current == 'C' ))
         {
             roman.erase(i - 1, 2);
             a += 90;
             i = 0;
-            continue;
         }
         if ((last == 'C' && current == 'D' ))
         {
             roman.erase(i - 1, 2);
             a += 400;
             i = 0;
-            continue;
         }
         if ((last == 'C' && current == 'M' ))
         {
             roman.erase(i - 1, 2);
             a += 900;
             i = 0;
-            continue;
         }
     }
     for(int i1 = 0; i1 < roman.length(); i1++)
