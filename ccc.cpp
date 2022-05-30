@@ -1,11 +1,9 @@
 #include <iostream>
 using namespace std;
 
-double nthPersonGetsNthSeat(int n) {
-    double d = n;
-    return 1 / d;
-}
 int main()
 {
-    cout << nthPersonGetsNthSeat(2);
+    for(int i = 0; i < 1000; i++)
+        if((i % 7) + (i % 8) + (i % 9) == 21)
+            cout << i;
 }
